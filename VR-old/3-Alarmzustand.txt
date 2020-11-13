@@ -1,0 +1,39 @@
+﻿Teil 3: Alarmzustand
+----
+
+"A4FF 2279."
+
+Im Inneren eines schmucklosen grauen Würfels, irgendwo im Space, eröffnete ein Standardavatar mit dem Namen pub765844332 das Gespräch. Mit ihm im Raum waren zwölf weitere Gestalten, alle so mit öffentlichen Avatargeneratoren erzeugt, dass ihr Aussehen keinerlei Rückschlüsse auf ihre Inhaber erlaubte. Nachdem alle ihre Key-IDs gesendet hatten, ermöglichte die in den Avataren laufende Kryptosoftware die weitere Diskussion im Klartext. Pub765844332 übernahm die Leitung. Für einen Außenstehenden war das Gespräch nun nicht weiter zu verfolgen, und das sollte sie auch nicht sein. Aus den Wänden des Raums waren sämtliche Öffnungen entfernt und damit die Möglichkeit eines ungewollten Beobachters weitgehend ausgeschlossen worden.
+
+"Wir haben ein Problem", sagte 332 und bewegte sich in die Mitte der Gruppe.
+
+"Die Wallet ist weg. Ich meine nicht eine von den kleinen, die für die verschiedenen Abteilungen genutzt werden. Ich meine die von der 'Pensionskasse'."
+
+"Scheiße!", entfuhr es einer anderen Figur mit dem Namen pub625347585, "Wie konnte das passieren?"
+
+"Milo wollte heute morgen turnusmäßig den Standort wechseln und konnte sich nicht mehr einlinken. Der Account ist gelöscht."
+
+"Aber es gibt doch bestimmt ein Backup?", fragte 585.
+
+"Gibt es nicht. Der Sinn dieser Wallet ist, dass es nur einen Schlüssel an einem Ort gibt. Nur ich weiß, wie der Schlüssel zu lesen ist, und nur ihr kennt den Aufbewahrungsort. Das ist unsere gegenseitige Versicherung."
+
+"Und jetzt ist der Schlüssel weg und niemand weiß, wo er ist?"
+
+"Ich glaube das nicht. Ich glaube, jemand anders hat ihn", 332s Stimme wurde hart, "Ich weiß nicht, wer, aber wir müssen diesen Typen finden, den Schlüssel zurückholen und ein Exempel statuieren."
+
+"Wie sollen wir das anfangen?", fragte DandG3387657 in Form eines gut gekleideten Promotion-Avatars eines bekannten Modelabels.
+
+"Milo wird die Monitoring-Logs des Space prüfen, um herauszufinden, wann der Account gelöscht wurde. Danach wissen wir auch, wer das getan hat. So arbeiten wir uns durch die Ereigniskette bis wir den Schlüssel zurück haben." 332 klang jetzt sehr zuversichtlich.
+
+"Aber die Logs sind doch Space-Eigentum und geheim, oder?", wollte 585 wissen.
+"Das ist alles eine Frage des Preises."
+
+"Wie viel war, äh ist eigentlich in der Kasse?", fragte 657.
+
+"Es geht um knapp drei Milliarden Dollar nach letztem Stand. Ich denke, das sollte euch zusätzlich motivieren."
+
+Scharfes Luftholen, Raunen.
+
+"Okay, wir machen hier jetzt Schluss. Entsorgt die Accounts. Wir treffen uns nach Plan wie gehabt."
+
+In einer Seitenwand erschien eine rechteckige Öffnung. Einer nach dem anderen verließ den Raum und begab sich an einen zufälligen Ort innerhalb des Space, um dort auszulinken.
