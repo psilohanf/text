@@ -1,0 +1,95 @@
+{\rtf1\ansi\ansicpg1252
+{\stylesheet
+{\s0 Normal;}
+{\s1\snext0\outlinelevel0\fs36\b Heading 1;}
+{\s2\snext0\outlinelevel1\fs32\b Heading 2;}
+{\s3\snext0\outlinelevel2\fs28\b Heading 3;}
+{\s4\snext0\outlinelevel3\fs24\b Heading 4;}
+{\s5\snext0\outlinelevel4\fs20\b Heading 5;}
+{\s6\snext0\outlinelevel5\fs16\b Heading 6;}
+}
+{\pard\plain\s0 {\b The Seven Delicacies of System\~Design}\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 How to come up with a solid solution design starting from scratch\par}
+{\pard\plain\s0 \u65532?\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 I work as an IT-architect for roughly twenty years now. I have been in professional service, development, pre-sales and consulting and all the time it was my goal to create {\b reliable solutions }for my customers. It turns out that this is not an easy task for most of the people working in this area. I get asked a lot: \'84Where can I learn how to design an IT-system?\ldblquote \par}
+{\pard\plain\s0 Apparently there are a lot of publications out there that tell you {\b which skills are absolutely necessary} for a solution designer. Basically you have to be a super-human-code-spitting-relentless-soft-skill robot. On the other hand I see a lack of people that can explain the {\b actual process to develop a good IT-system}. As a result in many cases it depends on a lot of luck and a sudden flash of inspiration to create a good solution. A lot of bad solutions {\b just get copied over and over} (obviously because there is a lack of empathic super-human robots). That sounds a little bit like gambling to me.\par}
+{\pard\plain\s0 Coming from an engineering background I am rather hesitant to depend my success on \'84luck\ldblquote  and \'84inspiration\ldblquote . I actually want to {\b keep the need for ingenious moments and lucky shots to a minimum}. Designing an IT-system should not be a form of art or gambling. instead it should be a {\b craft that can be learned} basically by anyone.\par}
+{\pard\plain\s0 So instead of just looking into the menu I\rquote d like to offer you the {\b seven delicacies of system design} on a plate and start eating them together with you.\par}
+{\pard\plain\s0 This sequence of seven rather simple steps will {\b improve your chances to design a good solution}.\par}
+{\pard\plain\s0 I will go through them in the form of user stories so you could treat them within the {\b agile method of your choice}. My advice is to basically keep this sequence because it will inevitably give you the right know-how at the time when you need it. For each step I will give you an {\b example of the acceptance criteria} that should be met before you can consider this story to be completed. For the graphics I used one of Neal Ford\lquote s collection of {\ul architecture katas}. So let\lquote s get started.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 {\b 1. The architect needs a system context to understand the business needs and\~events}\par}
+{\pard\plain\s0 At the beginning of every creative process there is a phase of knowledge building. So we start with a very basic insight:\par}
+{\pard\plain\s0 \'84If you don\lquote t know your business needs you will not find a solution.\ldblquote \par}
+{\pard\plain\s0 You might be a great architect but you probably have no clue {\b why somebody would like to use that new system} you are about to design. For this story you will have to actually talk with your product owner. That is the person that has {\b the money to build your system}. He as a business interest in it and you need to get it out of him. Yes, I know it\lquote s difficult for you to talk to this type of person (and they might say the same about you) but {\b there is no way around it} and you might actually like it.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 \u65532?\par}
+{\pard\plain\s0 System Context\~Diagram\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 This story has to deliver at least a business context. That could be {\b a simple graph} showing your new system (just the title in a box) surrounded by customers, external systems and any other sources of business events (e.g. a calendar or an audit schedule).\par}
+{\pard\plain\s0 You have to note all business events and requests at the arrows going INTO your system. There must not be any arrow going out of your system. If you see that you should either rephrase the event or request {\b or the connection is technical and does not belong here} (technical context diagrams can be done at a later state as well). For example you could end up with an arrow going from your system to a data warehouse because you think the event is \'84deliver data\ldblquote . Remodel this to an arrow coming from the data warehouse into your system named \'84request weekly update of data\ldblquote .\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 \u65532?\par}
+{\pard\plain\s0 Correct Arrow Direction\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 If you end up with a lot of users with different roles but with the same requests, then {\b maybe you don\lquote t have these many roles}. Try to reduce the roles but always seek agreement with the product owner. In many cases {\b he has never thought about this} in such a structured way and it helps both of you.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 {\b 2. The architect needs prioritized quality goals to take qualified design decisions}\par}
+{\pard\plain\s0 Once you understood the business context it is really important to also understand the quality needs. This is coming from talking with the product owner as well. During design there will be a lot of situations in which you have to {\b balance different quality aspects to take the best technical decision}. Knowing the priorities of the quality goals will make these situations a lot easier.\par}
+{\pard\plain\s0 \u65532?\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 As an outcome of this story you should have a {\b prioritized list of the top six quality goals}. Good candidates are \'84performance\ldblquote , \'84scalability\ldblquote , \'84maintainability\ldblquote , \'84security\ldblquote  etc. Remember these goals {\b might have to be measured} later so it\rquote s not a good idea to have dozens of them.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 {\b 3. The architect needs constraints to create a valid\~solution}\par}
+{\pard\plain\s0 You will almost never create a system without any constraints and you should be thankful for that. Constraints are good. Constraints make your design work a lot easier because they will automatically {\b exclude a lot of possible solutions}. In many cases the remaining solutions will not be as beautiful or elegant but we are not at an art competition here. Constraints shall be documented basically in four different flavours\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 Design constraints:\~\line These might be architecture patterns or strategies that you have to follow: microservices patterns, asynchronous communication.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 Implementation constraints:\line For example: aspecific programming language to use, a given database product or a mobile operating system type.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 Interface constraints:\line Existing communication protocols (REST, RCP etc.). Human factors (GUI for colour blind persons).\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 Physical constraints:\line Specific hardware needs (Raspberry Pi solution). Power consumption restrictions.\par}
+{\pard\plain\s0 Once you have that collection you are done with this story.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 {\b 4. The architect needs architectural characteristics to optimize the\~solution}\par}
+{\pard\plain\s0 This story builds up on the quality goals coming from story number 2. It means {\b now you have to put facts to each quality goal }(good if you don\rquote t have too many of them). You still need your product owner for this. He might bring more stakeholders to answer your questions. {\b This is the most important user story for your whole design}. Architecture characteristics drive most of your decisions.\par}
+{\pard\plain\s0 As a result you have to deliver a documentation of the characteristics. You definitely {\b need quantities} for that. How many transactions of which type (refer to the business context) have to be done in which time period? Are there any peaks? How long are those? How big is the data volume that has to be stored? For how long?\par}
+{\pard\plain\s0 There are a lot of these aspects to be found in so called {\b non-functional requirements collections}. You should refrain from calling them \'84non-functional\ldblquote , because in the brains of product owners and stakeholder this is easily translated into \'84non-relevant\ldblquote . For you the architectural characteristics or properties are the most relevant of all requirements. The decisions you take because of them will be the {\b major drivers of implementation effort and operational cost}.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 {\b 5. The architect needs a solution strategy to align the further\~design}\par}
+{\pard\plain\s0 In order to complete this user story you need to actually create the basic design. Here you can shine with all your experience and know-how. The more effort you put into the other user stories {\b the easier this one will become}. The context, the constraints and the architecture characteristics have already reduced the solution space a lot. I recommend to {\b start with a draft solution and let it be reviewed} by team members and peer architects in your organisation.\par}
+{\pard\plain\s0 As a result you should come up with a {\b technology stack and a verbal description} of how you want to make use of the different elements of the stack.\par}
+{\pard\plain\s0 A second deliverable is a set of open issues. If there aren\lquote t any then be suspicious. You have probably overseen something or {\b you have not collected enough }constraints, goals and characteristics.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 {\b 6. The architect needs a modular system structure to create the interior of the\~solution}\par}
+{\pard\plain\s0 Story number 1 showed your system as a black box (okay, I know it was orange) in context with all external entities. Now it\lquote s time to shed some light into that box. Consider it to be the {\b second level of details}. You will design the interiors of your new system. Split it up into {\b different functional containers}. If you make use of standard solutions you should name them (e. g. the database or a message broker).\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 \u65532?\par}
+{\pard\plain\s0 Building Block Diagram with Twelve\~Elements\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 To complete this story you should come up with at least a drawing of the first level of modularization. Keep the external entities in the drawing. {\b Avoid to have more than 20 named elements} in the drawing or it will cause confusion. The elements need to be connected by arrows. An element without any connection does not belong to your system. Delete it. {\b Avoid double headed arrows by all means}. Decide if you want to show the data flow {\b or }the control flow. Afterwards put the name of the data object resp. the name of the event to each arrow. If your picture shows elements nested inside of other elements it\lquote s time to {\b create a second level design} where you show the interiors of this complex element. You should {\b never end up with more than three levels of detail}. If you do then this is a good hint that your {\b complexity is too high} and you should split the whole system up on a higher level.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 {\b 7. The operator needs a deployment diagram to provide the necessary hardware resources}\par}
+{\pard\plain\s0 Until now you have documented the building blocks of your new system and the technology stack. It\lquote s time to unpack the wrenches, hammers and screwdrivers. Many IT-architects forget that over the years the {\b operation of software will cost many times more that its development}. You need to get together with the guys that shall run your solution and design a {\b possible deployment on the operational architecture}. As a result you will need a diagram that shows the building blocks and how they will be distributed to servers, clusters, operating systems, docker containers, firewalls etc. Don\lquote t forget the connections between these hardware components. Now it\rquote s not about functionality but about technical connections that means you have to talk protocols (TCP, HTTP, UDP, LDAP etc.).\par}
+{\pard\plain\s0 New constraints might be coming up. You will have to address this in your design and you do it better now than later. Listen carefully to what the {\b administrators and engineers tell you about the capabilities} of the production platform.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 \u65532?\par}
+{\pard\plain\s0 Deployment Diagram\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 You should also have at least an idea about the{\b  resource consumption that your system will have under different loads}. It is important to know which operational key figure {\b will affect the hardware requirements} the most. Is it the amount of interactive users? Is it the number of database transactions? Is it the size of downloads?\par}
+{\pard\plain\s0 You should also be prepared to deliver {\b different deployments for different operational contexts}. Does a test system have to look like the production system? What is the difference between a fully scaled setup compared to the start configuration?\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 {\b Are You in for\~Desert?}\par}
+{\pard\plain\s0 That was a big plate of food but we are not done yet. After completing these seven steps you probably have a very {\b thoroughly designed system that is prepared to run productively}. If you remember to keep all the user story results in one location you will be prepared for {\b the maintenance phase of the product} that will actually begin even during implementation.\par}
+{\pard\plain\s0 From any of these steps there could come more requirements, constraints or even quality goals that you must discuss with the product owner. {\b A very common source of additional requirements is IT-security}.\par}
+{\pard\plain\s0 Remember that designing the solution actually never ends. With the first release going out to the users {\b you will start changing the system}. It is important to get the user\lquote s feedback as early as possible because there will be things coming up that {\b nobody was aware of}. Not the product owner, not the stakeholders and of course not you, the architect. But you are the guy that will have the means to{\b  improve the product as quickly as possible} with the help of the seven delicacies of system design. Enjoy.\par}
+{\pard\plain\s0\par}
+{\pard\plain\s0 {\b References:}\par}
+{\pard\plain\s0 You will find some great training inspiration at Neal Ford\rquote s {\ul Architectural Katas}.\par}
+{\pard\plain\s0 All the drawings were done with {\ul Draw.io}.\par}
+{\pard\plain\s0 The different views on the architecture are following the {\ul C4 model}. There is also a Draw.io {\ul plugin }for that.\par}
+{\pard\plain\s0 \line \par}
+}
