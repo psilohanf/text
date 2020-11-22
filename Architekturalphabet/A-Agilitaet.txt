@@ -4,6 +4,21 @@ Jeder will sie, nur wenige haben sie. Agilität ist seit Jahren das Stichwort, d
 
 Dazu müssen wir den Modebegriff "Agilität" zunächst einmal zu seinem Ursprung verfolgen, um so zu verstehen, welche grundsätzlichen Ideen dahinter stecken. Und die sind eigentlich ziemlich spannend. Agile Methoden werden grundsätzlich als radikaler Gegenentwurf zu den akribisch vorausplanenden Methoden verstanden. Das rührt von der Erkenntnis her, dass im Bereich der Softwareprojekte viele Anforderungen oft nicht im voraus klar sind oder sich im Laufe der Lösungserstellung verändern. Damit sieht eine  Vorausplanung (z. B. in Form eines Lasten- und Pflichtenhefts) zunächst stimmig aus, das Ergebnis jedoch ist häufig unakzeptabel weit von der Realität der Auftraggebers entfernt. Dann stehen aufwendige Nachbesserungen an, die das Budget sprengen und eventuell sogar das ganze Projekt zum Scheitern bringen. Hört sich das bekannt an? 
 
-Agile Methoden nehmen für sich in Anspruch, dass sie, korrekt angewendet, das oben geschilderte Risiko deutlich verringern können und zwar besonders für lang laufende Initiativen. Aus meiner persönlichen Erfahrung kenne ich viele Initiativen, die mit relativ schwammigen Zielen (“Wir bauen eine moderne IT-Architektur auf ...”) und sehr langen Zeithorizonten (“... in den nächsten drei Jahren”) starten, sodass sie von einem agilen Ansatz profitieren könnten.
+Agile Methoden nehmen für sich in Anspruch, dass sie, korrekt angewendet, das oben geschilderte Risiko deutlich verringern können und zwar besonders für lang laufende Initiativen. Aus meiner persönlichen Erfahrung kenne ich viele Initiativen, die mit relativ schwammigen Zielen (“Wir bauen eine moderne IT-Architektur auf ...”) und sehr langen Zeithorizonten (“... in den nächsten drei Jahren”) starten, sodass sie von einem agilen Ansatz profitieren könnten, der es erlaubt, binnen Wochenfrist mit geänderten Prioritäten weiter zu entwickeln.
 
-Also beschäftigen sich alle mit dem Agilen Manifest, mit Scrum und Kanban und mit Ritualen wie Retrospektive und Backlog-Refinement. Und viele beklagen sich anschließend, dass das alles nicht so richtig passt, oder sogar, dass sie das sowieso schon immer so machen würden.
+Also beschäftigen sich alle mit dem Agilen Manifest, mit “Scrum” und “Kanban” und mit Ritualen wie “Retrospektive” und “Backlog-Refinement”. Und viele beklagen sich anschließend, dass das alles nicht so richtig passt, oder sogar, dass sie das sowieso schon immer so machen würden.
+Dabei ist es viel wichtiger, zu verstehen, dass Scrum, Kanban, Agiles Manifest etc. nur Anwendungsfälle für die drei Grundprinzipien sind, die hinter der Agilität stehen. Diese lauten:
+
+* Transparenz
+* Prüfung
+* Anpassung
+
+Sie sind gleichzeitig die Grundpfeiler der empirischen Methodik, also der Methodik auf der unser wissenschaftlicher Fortschritt beruht.
+Anstatt also zu versuchen, Scrum oder Kanban irgendwie auf IT-Architektur anzuwenden, sollten wir lieber versuchen, die Entwicklung der IT-Architektur entlang der empirischen Prinzipien umzusetzen. Doch wie kann das geschehen?
+
+Transparenz bedeutet, dass alle Aktivitäten in Bezug auf ein Vorhaben dokumentiert werden und diskutiert werden können. In der Wissenschaft geschieht das z. B. durch Veröffentlichungen in wissenschaftlichen Magazinen oder durch Vorträge auf Konferenzen. In der IT-Architektur bietet sich auf Unternehmensebene eine Sammlung von Rahmenrichtlinien an, die nachvollziehbar aus der Geschäftsstrategie abgeleitet werden. 
+Im IT-Projektgeschäft sollte der verantwortliche Lösungsarchitekt ein Logbuch mit Architekturentscheidungen führen, z. B. in Form von “Architecture Decision Records” (ADR). So können diese Entscheidungen nachvollzogen und diskutiert werden.
+
+Prüfung bezeichnet die geregelte Untersuchung einer Lösung auf ihre Eignung und Vollständigkeit hin. In der Scrum-Methodik geschieht das im Rahmen von regelmäßigen Sprint-Reviews, bei denen jede Sprint-Story auf die Erfüllung der Akzeptanzkriterien geprüft wird. Im Vergleich zum Scrum mit seinen zwei- bis vierwöchigen Sprints wird man auf Unternehmensebene eher langfristigere Reviews der Rahmenrichtlinien durchführen, aber auch eine Diskussion über einen Teilbereich im Rahmen eines wöchentlichen Treffens der IT-Architekten ist denk- und durchführbar.
+
+Anpassung wiederum bedeutet, dass die beim Review gewonnenen Erkenntnisse zu Änderungen führen müssen, wenn sich die Richtlinien oder Akzeptanzkriterien als falsch, unzureichend oder überholt herausgestellt haben. Auch eine geänderte Geschäftsstrategie muss in einer agilen Architekturorganisation schnelle Änderungen zur Folge haben können.
