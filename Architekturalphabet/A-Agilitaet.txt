@@ -1,4 +1,4 @@
-﻿A - Agilität
+A - Agilität
 
 Jeder will sie, nur wenige haben sie. Agilität ist seit Jahren das Stichwort, der fast jeden etablierten Prozess alt aussehen lässt. Nur wer agil ist, ist vorne. Die Sinnhaftigkeit wird selten hinterfragt. Auch vor der IT-Architektur macht das Modewort nicht halt. Für uns als IT-Architekten lautet die Frage also: Wie kann man die Prozesse zur Konstruktion von Softwarelösungen agil machen und ist das überhaupt sinnvoll?
 
@@ -21,4 +21,24 @@ Im IT-Projektgeschäft sollte der verantwortliche Lösungsarchitekt ein Logbuch 
 
 Prüfung bezeichnet die geregelte Untersuchung einer Lösung auf ihre Eignung und Vollständigkeit hin. In der Scrum-Methodik geschieht das im Rahmen von regelmäßigen Sprint-Reviews, bei denen jede Sprint-Story auf die Erfüllung der Akzeptanzkriterien geprüft wird. Im Vergleich zum Scrum mit seinen zwei- bis vierwöchigen Sprints wird man auf Unternehmensebene eher langfristigere Reviews der Rahmenrichtlinien durchführen, aber auch eine Diskussion über einen Teilbereich im Rahmen eines wöchentlichen Treffens der IT-Architekten ist denk- und durchführbar.
 
-Anpassung wiederum bedeutet, dass die beim Review gewonnenen Erkenntnisse zu Änderungen führen müssen, wenn sich die Richtlinien oder Akzeptanzkriterien als falsch, unzureichend oder überholt herausgestellt haben. Auch eine geänderte Geschäftsstrategie muss in einer agilen Architekturorganisation schnelle Änderungen zur Folge haben können.
+Anpassung wiederum heisst, dass die beim Review gewonnenen Erkenntnisse zu Änderungen führen müssen, wenn sich die Richtlinien oder Akzeptanzkriterien als falsch, unzureichend oder überholt herausgestellt haben. Auch eine geänderte Geschäftsstrategie muss in einer agilen Architekturorganisation schnelle Änderungen zur Folge haben können. Ohne Konsequenz aus der Transparenz und der Prüfung ist die gesamte Methode sinnlos, da keine Verbesserung eintreten kann.
+
+Die oben genannten Prinzipien finden sich in jeder agilen Methodik in verschiedenen Formen und Ritualen wieder:
+
+Transparenz:
+* Kanban-Boards
+* Scrum-Boards
+* Retrospektiven-Reports
+* Definition of Done
+* Planning-Poker
+
+Prüfung:
+* Review-Meetings
+* Daily-Meetings
+* Retrospektiven
+
+Anpassung:
+* Backlog-Refinements
+* Sprint-Planung
+
+Ein weiterer Aspekt neben der Methodik ist die Tatsache, dass Agilität durch eine Gruppe getragen werden muss. Eine Einzelperson, die sich alle obengenannten Prinzipien zu eigen macht, hat in einem Unternehmen keinen Effekt. Erst mit der Akzeptanz der Prinzipien und der Methodik durch eine Gruppe stellen sich die positiven Effekte ein. Dabei ist in Kauf zu nehmen, dass Gruppenprozesse mehr Zeit benötigen als einsame Entscheidungen. Um diesen Nachteil nicht ausufern zu lassen, finden sich in den agilen Methoden immer auch Aspekte des Zeitmanagements, z. B. Timeboxing, Kategorisierung, Priorisierung, Abstimmungsrituale.
