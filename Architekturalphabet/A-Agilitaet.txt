@@ -1,4 +1,4 @@
-A - Agilität
+﻿A - Agilität
 
 Jeder will sie, nur wenige haben sie. Agilität ist seit Jahren das Stichwort, der fast jeden etablierten Prozess alt aussehen lässt. Nur wer agil ist, ist vorne. Die Sinnhaftigkeit wird selten hinterfragt. Auch vor der IT-Architektur macht das Modewort nicht halt. Für uns als IT-Architekten lautet die Frage also: Wie kann man die Prozesse zur Konstruktion von Softwarelösungen agil machen und ist das überhaupt sinnvoll?
 
@@ -14,7 +14,7 @@ Dabei ist es viel wichtiger, zu verstehen, dass Scrum, Kanban, Agiles Manifest e
 * Anpassung
 
 Sie sind gleichzeitig die Grundpfeiler der empirischen Methodik, also der Methodik auf der unser wissenschaftlicher Fortschritt beruht.
-Anstatt also zu versuchen, Scrum oder Kanban irgendwie auf IT-Architektur anzuwenden, sollten wir lieber versuchen, die Entwicklung der IT-Architektur entlang der empirischen Prinzipien umzusetzen. Doch wie kann das geschehen?
+Anstatt also zu versuchen, Scrum oder Kanban irgendwie auf IT-Architektur anzuwenden, sollten wir anstreben, die Entwicklung der IT-Architektur entlang der empirischen Prinzipien umzusetzen. Doch wie kann das geschehen?
 
 Transparenz bedeutet, dass alle Aktivitäten in Bezug auf ein Vorhaben dokumentiert werden und diskutiert werden können. In der Wissenschaft geschieht das z. B. durch Veröffentlichungen in wissenschaftlichen Magazinen oder durch Vorträge auf Konferenzen. In der IT-Architektur bietet sich auf Unternehmensebene eine Sammlung von Rahmenrichtlinien an, die nachvollziehbar aus der Geschäftsstrategie abgeleitet werden. 
 Im IT-Projektgeschäft sollte der verantwortliche Lösungsarchitekt ein Logbuch mit Architekturentscheidungen führen, z. B. in Form von “Architecture Decision Records” (ADR). So können diese Entscheidungen nachvollzogen und diskutiert werden.
