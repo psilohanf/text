@@ -7,7 +7,7 @@ modified: 2021-11-22T21:03:28+00:00
 
 16.11.2021
 
-Es geht darum, den Resturlaub beim Verlassen der Firma möglichst elegant aufzubrauchen um die unvermeidliche Langeweile am Schluss zu minimieren. Da ich im November gerne noch einmal Gleitschirm fliegen möchte, kommt im Grunde nur Lanzarote in Frage. Die Azoren sind mir schon zu weit.
+Es geht darum, den Resturlaub beim Verlassen der Firma möglichst elegant aufzubrauchen, um die unvermeidliche Langeweile am Schluss zu minimieren. Da ich im November gerne noch einmal Gleitschirm fliegen möchte, kommt im Grunde nur Lanzarote in Frage. Die Azoren sind mir schon zu weit.
 Lanzarote im November, außerhalb der Schulferien, das bedeutet Rentnerglück. Und so kommt es auch. Bereits im Wartebereich vor dem Gate gehören drei Viertel der Mitreisenden zur Corona-Risikogruppe. Wer nich übergewichtig ist, der trägt vorzugsweise Beige. Die dicken Damen gerne rosa XXL-T-Shirts mit Blumenstickereien. Am Gate werden mehr Rollatoren als Kinderwagen eingecheckt. 
 Im Flug habe ich Glück und eine Kleinfamilie mit entzückendem Säugling möchte unheimlich gerne ihren Fensterplatz mit meinem Gangplatz tauschen. Da sage ich natürlich nicht nein. Marla (des Säuglings Name) verhält sich durch taktisch gut kalkulierte Nasentropfen und ihr Trinkfläschchen sowohl beim Steigflug als auch beim Sinkflug ruhig. Die Eltern sind darüber anscheinend mehr erleichtert als die Umsitzenden.
 Mein gigantischer Rucksack ist ziemlich früh auf dem Band und dann reihe ich mich auch schon in die Schlange vor der Autovermietung ein. Die frühe Buchung hat sich gelohnt. Smarts sind heute nur noch für mehr als das Doppelte zu mieten.
