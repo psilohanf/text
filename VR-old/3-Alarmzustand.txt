@@ -1,15 +1,15 @@
-﻿Teil 3: Alarmzustand
+Teil 3: Alarmzustand
 ----
 
 "A4FF 2279."
 
-Im Inneren eines schmucklosen grauen Würfels, irgendwo im Space, eröffnete ein Standardavatar mit dem Namen pub765844332 das Gespräch. Mit ihm im Raum waren zwölf weitere Gestalten, alle so mit öffentlichen Avatargeneratoren erzeugt, dass ihr Aussehen keinerlei Rückschlüsse auf ihre Inhaber erlaubte. Nachdem alle ihre Key-IDs gesendet hatten, ermöglichte die in den Avataren laufende Kryptosoftware die weitere Diskussion im Klartext. Pub765844332 übernahm die Leitung. Für einen Außenstehenden war das Gespräch nun nicht weiter zu verfolgen, und das sollte sie auch nicht sein. Aus den Wänden des Raums waren sämtliche Öffnungen entfernt und damit die Möglichkeit eines ungewollten Beobachters weitgehend ausgeschlossen worden.
+Im Inneren eines schmucklosen grauen Würfels, irgendwo im Space, eröffnete ein Standardavatar mit dem Namen pub765844332 das Gespräch. Mit ihm im Raum waren zwölf weitere Gestalten, jeder von ihnen mit öffentlichen Avatargeneratoren erzeugt, sodass ihr Aussehen keinerlei Rückschlüsse auf ihre Inhaber erlaubte. Nachdem alle ihre Key-IDs gesendet hatten, ermöglichte die in den Avataren laufende Kryptosoftware die weitere Diskussion im Klartext. Pub765844-332 übernahm die Leitung. Für einen Außenstehenden war die Konversation nun nicht weiter zu verfolgen, und das sollte sie auch nicht sein. Aus den Wänden des Raums waren sämtliche Öffnungen entfernt und damit die Möglichkeit eines ungewollten, zufälligen Beobachters weitgehend ausgeschlossen worden.
 
 "Wir haben ein Problem", sagte 332 und bewegte sich in die Mitte der Gruppe.
 
 "Die Wallet ist weg. Ich meine nicht eine von den kleinen, die für die verschiedenen Abteilungen genutzt werden. Ich meine die von der 'Pensionskasse'."
 
-"Scheiße!", entfuhr es einer anderen Figur mit dem Namen pub625347585, "Wie konnte das passieren?"
+"Scheiße!", entfuhr es einer anderen Figur mit dem Namen pub625347-585, "Wie konnte das passieren?"
 
 "Milo wollte heute morgen turnusmäßig den Standort wechseln und konnte sich nicht mehr einlinken. Der Account ist gelöscht."
 
@@ -21,7 +21,7 @@ Im Inneren eines schmucklosen grauen Würfels, irgendwo im Space, eröffnete ein
 
 "Ich glaube das nicht. Ich glaube, jemand anders hat ihn", 332s Stimme wurde hart, "Ich weiß nicht, wer, aber wir müssen diesen Typen finden, den Schlüssel zurückholen und ein Exempel statuieren."
 
-"Wie sollen wir das anfangen?", fragte DandG3387657 in Form eines gut gekleideten Promotion-Avatars eines bekannten Modelabels.
+"Wie sollen wir das anfangen?", fragte DandG3387-657 in Form eines gut gekleideten Promotion-Avatars eines bekannten Modelabels.
 
 "Milo wird die Monitoring-Logs des Space prüfen, um herauszufinden, wann der Account gelöscht wurde. Danach wissen wir auch, wer das getan hat. So arbeiten wir uns durch die Ereigniskette bis wir den Schlüssel zurück haben." 332 klang jetzt sehr zuversichtlich.
 
